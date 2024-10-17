@@ -38,3 +38,57 @@ header{
     border-bottom: 1px solid #999999;
     z-index: 1000;
 }
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-nav, .right-nav {
+    display: flex;
+}
+
+.nav-box {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.nav-box:hover {
+    background-color: #e5e5e5;
+}
+
+.nav-box a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hamburger-menu {
+    display: none;
+    max-width: 20px;
+    height: auto;
+}
+
+.special-link {
+    background-color:  #050505;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.special-link a {
+    color:  #e5e5e5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.special-link:hover {
+    background-color:#121212;
+    color: #f4f4f4;
+}
