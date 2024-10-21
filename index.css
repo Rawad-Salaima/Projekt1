@@ -253,4 +253,75 @@ nav {
     color:  #666666;
 }
 
+/* Styling den tredej sektionen */
 
+.third-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.third-section h2 {
+    font-size: 3vw;
+    font-weight: 650;
+    margin-bottom: 20px;
+}
+
+.third-section .centered-text {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.third-section .cta-button {
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.third-section .cta-button:hover {
+    background-color: #121212;
+}
+
+/* Hela listan får border-radius och bakgrundsfärg */
+.icon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 65%;
+    background-color:  #e5e5e5; /* Bakgrundsfärg för hela listan */
+    border-radius: 5px; /* Rundade hörn för hela listan */
+    padding: 10px; /* Lite padding runt hela listan */
+}
+
+.icon-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #666666; /* Border mellan listobjekten */
+}
+
+.icon-list li:last-child {
+    border-bottom: none; /* Tar bort border-bottom på sista listobjektet */
+}
+
+.icon-list .list-text {
+    flex: 1;
+    text-align: left;
+}
+
+.icon-list img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
