@@ -617,5 +617,15 @@ footer p {
         align-items: center; 
         text-align: center; 
     }
+
+    .cta-button {
+        display: block; 
+        margin:  auto ; 
+        padding: 12px 24px; 
+        font-size: 18px; 
+        width: auto; 
+        max-width: 50%; 
+        text-align: center; 
+    }
 }
 
