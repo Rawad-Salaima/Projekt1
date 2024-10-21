@@ -590,7 +590,9 @@ footer p {
 
 /*  design för  skärmar  som är 600px eller mindre*/
 @media (max-width: 600px) {
-
-    
+    header {
+        position: static;
+        border-bottom: none;
+    }
 }
 
