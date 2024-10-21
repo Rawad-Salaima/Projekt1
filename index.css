@@ -254,7 +254,6 @@ nav {
 }
 
 /* Styling den tredej sektionen */
-
 .third-section {
     text-align: center;
     margin: 40px 0;
@@ -324,4 +323,56 @@ nav {
     width: 20px;
     height: 20px;
     margin-left: 10px;
+}
+/* Styling för sista sektionen */
+.team-section {
+    text-align: center; /* Centrera rubrik och paragraf */
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.team-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.team-section p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Liten horisontell distans mellan kolumner */
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ddd; /* Vertikal linje */
+    text-align: left; /* Vänsterjustera texten */
+}
+
+.column:first-child {
+    border-left: none; /* Ingen linje på första kolumnen */
+}
+
+.column h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.column a {
+    font-size: 1em;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
 }
