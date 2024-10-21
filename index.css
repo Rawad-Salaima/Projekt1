@@ -152,3 +152,20 @@ nav {
     background-color: #999999;
     margin: 20px; /* Utrymme ovanför och under linjen */
 }
+
+/* Logotyp sektion styling */
+.logo-section {
+    margin-top: 20px;
+    text-align: center; /* Centrerar logotyperna */
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap; /* Gör att logotyperna går till nästa rad */
+    justify-content: center; /* Centrerar logotyperna horisontellt */
+}
+
+.logo-container img {
+    max-width: 85px; 
+    margin: 15px; 
+}
